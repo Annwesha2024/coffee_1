@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7ab7cf290e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="logo.png" alt="logo" height="150vh">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul><i class="fas fa-bars" onclick="openmenu()"></i>
+
+    </nav>
+    <div class="header-text">
+        <p><strong>WEB DEVELOPER
+        </strong></p>
+        <H1>Hi, I'm Annwesha Das <br><span>from India</span></H1>
+    </div>
+</div>
+    </div>
+<!-- ------about Me ----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-2">
+                        <h1 class="Sub-title">About Me</h1>
+                    <p>I am Annwesha Das, a 19-year-old B.Tech CSE student at the Institute of Engineering and Management, graduating in 2027. I've completed courses in web development and cyber security, which have equipped me with skills in creating responsive websites and protecting digital information. My passion for technology drives me to continuously learn and improve. I am eager to apply my knowledge and contribute to innovative projects, aiming to make a significant impact in the field of computer science and engineering.</p>   
+               
+                    <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div> 
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span> Html & CSS</span>  <br>"Building and styling the structure seamlessly."</li>
+                        <li><span>JavaScript </span> <br>"Creating dynamic and interactive web experiences."</li>
+                        <li><span>Responsive Design </span> <br> "Ensuring websites look great on devices."</li>
+                    </ul>
+                    
+                </div>   
+                <div class="tab-contents  " id="experience">
+                    <ul>
+                        <li><span>Anti Sleep Alarm for drivers.</span>  <br>Technologies Used: HTML, CSS, JavaScript, Vue.js, Firebase.</li>
+                        <li><span>Scientific Calculator </span> <br>Technologies Used: HTML, CSS, JavaScript, Node.js, Express, Socket.io, MongoDB.</li>
+                        <li><span>Task Management System </span> <br> Technologies Used: HTML, CSS, JavaScript, Bootstrap, jQuery.</li>
+                    </ul>
+                    
+                </div>
+                <div class="tab-contents " id="education">
+                    <ul>
+                        <li><span> 2021</span>  <br>ICSE from National English School</li>
+                        <li><span>2023 </span> <br>AISSCE from Northpoint Senior Secondary Boarding Scool</li>
+                        <li><span>2023 </span> <br> Cybersecurity Management - IIT Madras(NPTEL)</li>
+                        <li><span>2024 </span> <br> Enhansing Soft Skills and Personality - IIT Kanpur(NPTEL) </li>
+                        <li><span>2024 </span> <br> Web Development - Udemy </li>
+                        <li><span>2023 - Current </span> <br> Btech from Institute of Engineering and Management.</li>
+
+
+                     </ul>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- closing of about me-->
+<div id="service">
+    <div class="container">
+        <h1 class="Sub-title">My Services</h1>
+        <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Desigm</h2>
+                <p>Web design involves creating visually appealing and user-friendly interfaces for websites, ensuring seamless navigation and optimal user experience. It combines elements of graphic design, layout principles, and coding skills to build engaging and functional web pages.</p>
+            <a href="#">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Ux/UI Design</h2>
+                <p>UI/UX design focuses on enhancing user interaction and experience with digital products through intuitive interfaces and thoughtful design choices. It combines user research, visual design, and usability testing to create seamless and enjoyable experiences for users.</p>
+                <a href="#">Learn more</a> 
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Desigm</h2>
+<p>App design involves crafting intuitive and aesthetically pleasing interfaces for mobile and web applications, ensuring functionality and user engagement. It integrates user experience (UX) principles with user interface (UI) design to create apps that are both visually appealing and easy to navigate.</p>
+                <a href="#">Learn more</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio starting-->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="Sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>A social media app enables users to connect, share, and interact through posts, messages, and multimedia. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg" >
+                <div class="layer">
+                    <h3>UX/UI Media App</h3>
+                    <p>A UX/UI app focuses on creating user-friendly, visually appealing interfaces, enhancing overall user experience and interaction. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg" >
+                <div class="layer">
+                    <h3>Cloud Storage App</h3>
+                    <p>Cloud storage allows users to store, access, and manage data online, ensuring scalability and accessibility. </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>annweshadas2004@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9123743***</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/snowyz.x?igsh=MTJnYXJtMnlhdzV1aQ=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100087112641761&mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://t.me/Adas_2024"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/annwesha-das-621460272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Annwesha Das. All rights reserved</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwoeeWFKLP-LrgP9LJLW8Nbr2Xm3ILvaDoV64_1EqJRtQjM6NIsDSfbfV_4tdP5hTgHFg/exec';
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+
+</body>
+</html>
